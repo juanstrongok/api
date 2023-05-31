@@ -1,0 +1,30 @@
+{
+  "scripts": {
+    "dev": "cross-env NODE_ENV=developement nodemon src/app.ts"
+  },
+  "dependencies": {
+    "@types/busboy": "^1.5.0",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/morgan": "^1.9.4",
+    "busboy": "^1.6.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv-flow": "^3.2.0",
+    "express": "^4.18.2",
+    "isemail": "^3.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.2.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22",
+    "sharp": "^0.32.1",
+    "slugify": "^1.6.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.5",
+    "@types/uuid": "^9.0.1"
+  }
+}
